@@ -24,7 +24,7 @@ public class CharacterController2D : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        rigidbody2D.MovePosition(rigidbody2D.position + movement * speed);
+        rigidbody2D.MovePosition(rigidbody2D.position + movement * speed * Time.fixedDeltaTime);
     }
 
 
