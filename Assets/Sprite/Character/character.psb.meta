@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16b76bb12266f114a855952571deceb6
+guid: 93129e8850bfe464a9cced5c8a99080c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -29,10 +29,10 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 0
+    spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 40
+    spritePixelsToUnits: 50
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -100,9 +100,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 22
-      height: 34
-    spriteID: 50dd7705b446654489c434e301fc635e
+      width: 56
+      height: 87
+    spriteID: 35ece24f0fe33dd479a675dbe7fdf027
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,7 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -21, y: -9}
+    uvTransform: {x: 4, y: 4}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -162,15 +162,15 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 32
-  importedTextureHeight: 64
-  documentSize: {x: 60, y: 60}
+  importedTextureWidth: 64
+  importedTextureHeight: 128
+  documentSize: {x: 56, y: 87}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 32
-  textureActualHeight: 64
+  textureActualWidth: 64
+  textureActualHeight: 128
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
@@ -180,7 +180,7 @@ ScriptedImporter:
     spriteName: Layer 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 50dd7705b446654489c434e301fc635e
+    spriteID: 35ece24f0fe33dd479a675dbe7fdf027
     layerID: 23
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -189,7 +189,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: character Texture
-  prefabAssetName: character Prefab
-  spriteLibAssetName: character Sprite Lib
+  textureAssetName: character 1 Texture
+  prefabAssetName: character 1 Prefab
+  spriteLibAssetName: character 1 Sprite Lib
   secondarySpriteTextures: []
