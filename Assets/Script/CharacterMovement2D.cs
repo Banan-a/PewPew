@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController2D : MonoBehaviour
+public class CharacterMovement2D : MonoBehaviour
 {
-    [Range(0, 100)] [SerializeField] private float speed = 20;
-    [Range(0, .3f)] private float movementSmoothing = .2f;
-
-    
+    [Range(0, 50)] [SerializeField] private float speed = 20;
 
     //local variable
     Vector2 movement;
