@@ -79,7 +79,7 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.21, y: -3.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -93,12 +93,13 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 3.2384, y: 3.8386395}
       - {x: 2.9604392, y: 4.1928988}
-      - {x: 0.6154218, y: 4.1870956}
+      - {x: 1.3305471, y: 5.6437297}
+      - {x: -0.18410872, y: 5.5196466}
       - {x: -2.0969138, y: 3.5660849}
       - {x: -2.2189794, y: 2.9685526}
       - {x: -1.7362356, y: 2.4891243}
       - {x: -1.7792323, y: 2.034087}
-      - {x: -0.8750124, y: 1.7398926}
+      - {x: -0.87501246, y: 1.7398926}
       - {x: 0.5302795, y: 2.520492}
       - {x: 1.347372, y: 2.5790434}
 --- !u!1001 &2364113711837619861
@@ -108,6 +109,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 180449943320097848}
     m_Modifications:
+    - target: {fileID: -9135550907538602470, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -9135550907538602470, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7957920099212027677, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: -7957920099212027677, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: -7957920099212027677, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
     - target: {fileID: -5625401396569366611, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
       propertyPath: m_Name
       value: Rock_big
@@ -126,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8422641898714424166, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 8422641898714424166, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
       propertyPath: m_LocalPosition.z
