@@ -6,6 +6,8 @@ public class CharacterMovement2D : MonoBehaviour
 {
     [Range(0, 50)] [SerializeField] private float speed = 20;
 
+    public Gun gun;
+
     //local variable
     Vector2 movement;
     Rigidbody2D rigidbody2D;
@@ -29,6 +31,16 @@ public class CharacterMovement2D : MonoBehaviour
         isMoving = !movement.Equals(new Vector2(0,0));
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+
+        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * 180 / Mathf.PI;
+
+        var vectorMouse = new Vector2(mousePos.x, mousePos.y).normalized;
+
+        if (Input.GetMouseButtonDown(0)) {
+            gun.tryToTriggerWeapon();
+            Debug.Log("Check");
+        }
+
         animator.SetFloat("MouseHorizontal", mousePos.x);
         animator.SetFloat("MouseVertical", mousePos.y);
         animator.SetBool("IsMoving", isMoving);
@@ -37,6 +49,7 @@ public class CharacterMovement2D : MonoBehaviour
     private void FixedUpdate() {
         rigidbody2D.MovePosition(rigidbody2D.position + movement * speed * Time.fixedDeltaTime);
     }
+
 
 
 }

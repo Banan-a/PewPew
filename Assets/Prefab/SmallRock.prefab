@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7790117781635088789}
   - component: {fileID: 7790117781635088786}
+  - component: {fileID: 1697978197}
   m_Layer: 0
   m_Name: SmallRock
   m_TagString: Untagged
@@ -24,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7790117781635088787}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.400764, y: -1.302475, z: 53.79593}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.47407869, y: 0.47407869, z: 0.47407869}
   m_Children:
   - {fileID: 6250221443468515625}
   m_Father: {fileID: 0}
@@ -43,6 +44,37 @@ SortingGroup:
   m_SortingLayerID: 780195377
   m_SortingLayer: 2
   m_SortingOrder: 0
+--- !u!60 &1697978197
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790117781635088787}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.9164699, y: 2.2620547}
+      - {x: 0.23049335, y: 2.0948284}
+      - {x: -2.045885, y: 0.71237504}
+      - {x: -0.24205017, y: -0.49209297}
+      - {x: 1.1352, y: -0.002301}
+      - {x: 2.8814135, y: 0.79880875}
 --- !u!1001 &8666147690276391131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50,6 +82,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7790117781635088789}
     m_Modifications:
+    - target: {fileID: -5073785691483879393, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5073785691483879393, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2728961594922481028, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_Name
       value: Rock_small
@@ -64,7 +104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3384851086166151666, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3384851086166151666, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -97,6 +137,18 @@ PrefabInstance:
     - target: {fileID: 3384851086166151666, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387529921769068813, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387529921769068813, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387529921769068813, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8679245
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -5371795612435445422, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
