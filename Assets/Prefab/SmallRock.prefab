@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7790117781635088789}
   - component: {fileID: 7790117781635088786}
   - component: {fileID: 1697978197}
-  m_Layer: 0
+  - component: {fileID: 1873127733}
+  m_Layer: 6
   m_Name: SmallRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,12 +70,33 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.9164699, y: 2.2620547}
-      - {x: 0.23049335, y: 2.0948284}
+    - - {x: 0.85030514, y: 2.835754}
+      - {x: -0.24746051, y: 2.5509837}
       - {x: -2.045885, y: 0.71237504}
       - {x: -0.24205017, y: -0.49209297}
       - {x: 1.1352, y: -0.002301}
       - {x: 2.8814135, y: 0.79880875}
+--- !u!50 &1873127733
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790117781635088787}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &8666147690276391131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,6 +115,10 @@ PrefabInstance:
     - target: {fileID: 2728961594922481028, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_Name
       value: Rock_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728961594922481028, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3384851086166151666, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_RootOrder
@@ -149,6 +175,10 @@ PrefabInstance:
     - target: {fileID: 4387529921769068813, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
       propertyPath: m_Color.r
       value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688114344995718566, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -5371795612435445422, guid: 9303aad972ee75c4ba5753f976b0bbff, type: 3}

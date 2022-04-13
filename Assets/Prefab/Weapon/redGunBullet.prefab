@@ -114,7 +114,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.08109352, y: 0}
@@ -142,6 +142,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70e26b91622cb44dbbd56e40b92f5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  lifeTime: 1.5
+  speed: 40
+  lifeTime: 0.5
   destroyEffect: {fileID: 1108658899654085547, guid: 3c84e6ccb8501e446a5b3cdbc67e0a09, type: 3}
+  solidLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  entitiesLayer:
+    serializedVersion: 2
+    m_Bits: 128

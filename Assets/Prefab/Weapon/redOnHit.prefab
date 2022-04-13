@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8388225093974347920}
   - component: {fileID: 2655093709077096138}
   - component: {fileID: 8382729456072980354}
+  - component: {fileID: 8568468955811682862}
   m_Layer: 0
   m_Name: redOnHit
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 780195377
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 8483335876489354862, guid: ac786db8ec4e33549bf531a642b46cde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,3 +103,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8568468955811682862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108658899654085547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c34fdd17c703344b64ff6bf3155a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

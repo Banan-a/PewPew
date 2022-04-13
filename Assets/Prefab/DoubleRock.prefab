@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1029545641038455625}
   - component: {fileID: 1029545641038455630}
   - component: {fileID: 1029545641038455624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DoubleRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ PolygonCollider2D:
       - {x: -0.7624068, y: 1.5518856}
       - {x: -2.674029, y: 0.533725}
       - {x: -1.7592793, y: -0.120842695}
-      - {x: 0.32339525, y: -0.06861341}
+      - {x: 0.09113723, y: -0.120226264}
       - {x: 1.2203165, y: -0.62036717}
       - {x: 3.0594945, y: 0.14256161}
 --- !u!1 &1029545641165693842
@@ -110,7 +110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029545641165693843}
   - component: {fileID: 1029545641165693840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Layer 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1029545641578831956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Double_Rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
