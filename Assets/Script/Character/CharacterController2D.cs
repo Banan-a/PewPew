@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement2D : MonoBehaviour
+public class CharacterController2D : MonoBehaviour
 {
     [Range(0, 50)] [SerializeField] private float speed = 20;
 
+    [Header ("Weapon")]
     public Gun gun;
 
     //local variable
@@ -36,9 +37,8 @@ public class CharacterMovement2D : MonoBehaviour
 
         var vectorMouse = new Vector2(mousePos.x, mousePos.y).normalized;
 
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0) && gun != null) {
             gun.tryToTriggerWeapon();
-            Debug.Log("Check");
         }
 
         animator.SetFloat("MouseHorizontal", mousePos.x);
@@ -49,7 +49,4 @@ public class CharacterMovement2D : MonoBehaviour
     private void FixedUpdate() {
         rigidbody2D.MovePosition(rigidbody2D.position + movement * speed * Time.fixedDeltaTime);
     }
-
-
-
 }
