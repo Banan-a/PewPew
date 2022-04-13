@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 180449943320097850}
   - component: {fileID: 180449943320097853}
   - component: {fileID: 180449943320097851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BigRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,9 +129,17 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.8679245
       objectReference: {fileID: 0}
+    - target: {fileID: -5677621299357051107, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -5625401396569366611, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
       propertyPath: m_Name
       value: Rock_big
+      objectReference: {fileID: 0}
+    - target: {fileID: -5625401396569366611, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -2817499172716523216, guid: a5f097239c88187459c0666ef6ba97f3, type: 3}
       propertyPath: m_SortingOrder
